@@ -15,7 +15,6 @@ To develop the program, I will use location and venue data from the Foursquare A
 
 • Explore: get venue recommendations
 
-
 I will also use two other data sources to identify neighborhoods in Toronto:
 
 • Neighborhood names: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
@@ -23,7 +22,6 @@ I will also use two other data sources to identify neighborhoods in Toronto:
 • Neighborhood locations: https://cocl.us/Geospatial_data
 
 # Methodology
-
 The process to analyze this data will be as follows:
 
 • Identify neighborhoods in Toronto (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M)
