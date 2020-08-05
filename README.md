@@ -8,17 +8,32 @@ My program will help companies like Camp Gladiator identify the best locations t
 
 # Data
 To develop the program, I will use location and venue data from the Foursquare API for Toronto, Canada. These are the specific endpoints that will be used:
-  -Trending: get trending venues
-  -Categories: get venue categories
-  -Explore: get venue recommendations
+
+• Trending: get trending venues
+
+• Categories: get venue categories
+
+• Explore: get venue recommendations
+
+
 I will also use two other data sources to identify neighborhoods in Toronto:
-  -Neighborhood names: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
-  -Neighborhood locations: https://cocl.us/Geospatial_data
+
+• Neighborhood names: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+
+• Neighborhood locations: https://cocl.us/Geospatial_data
+
+# Methodology
 
 The process to analyze this data will be as follows:
-  -Identify neighborhoods in Toronto (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M)
-  -Identify latitude and longitude of each neighborhood (https://cocl.us/Geospatial_data)
-  -Lookup top 5 trending venues for each neighborhood (Foursquare API - Trending)
-  -Filter neighborhoods that have a health venue in top 5 trending venues (Foursquare API - Categories)
-  -Verify if a gym is within 5 miles of the filtered list of neighborhoods (Foursquare API - Explore)
-  -Present final list of "hot spots"
+
+• Identify neighborhoods in Toronto (https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M)
+
+• Identify latitude and longitude of each neighborhood (https://cocl.us/Geospatial_data)
+
+• Lookup top 5 trending venues for each neighborhood (Foursquare API - Trending)
+
+• Filter neighborhoods that have a health venue in top 5 trending venues (Foursquare API - Categories)
+
+• Verify if a gym is within 5 miles of the filtered list of neighborhoods (Foursquare API - Explore)
+
+• Present final list of "hot spots"
